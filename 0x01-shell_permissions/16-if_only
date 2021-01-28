@@ -1,2 +1,2 @@
 #!/bin/bash
-chuser -R --olduser guillaume --newuser betty
+find /decompressed-backup-dir -user guillaume -exec chown betty {} +
