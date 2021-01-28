@@ -1,2 +1,2 @@
 #!/bin/bash
-find /decompressed-backup-dir -user guillaume -exec chown betty {} +
+find hello -user guillaume -exec chown betty {} +
